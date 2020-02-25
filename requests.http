@@ -1,0 +1,8 @@
+@url=https://api.giphy.com/v1
+@api_key=hBVO7d2gvoriQK1BOJQ11sVOdzW0FMbl
+
+###
+GET {{url}}/gifs/random
+?api_key={{$dotenv REACT_APP_GIPHY_API_KEY}}
+&tag=
+&rating=G
