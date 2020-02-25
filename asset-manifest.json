@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/five-apps_api-consume/static/css/main.925056b7.chunk.css",
+    "main.js": "/five-apps_api-consume/static/js/main.7e3f7153.chunk.js",
+    "main.js.map": "/five-apps_api-consume/static/js/main.7e3f7153.chunk.js.map",
+    "runtime-main.js": "/five-apps_api-consume/static/js/runtime-main.4ef1f86b.js",
+    "runtime-main.js.map": "/five-apps_api-consume/static/js/runtime-main.4ef1f86b.js.map",
+    "static/css/2.47e06e2e.chunk.css": "/five-apps_api-consume/static/css/2.47e06e2e.chunk.css",
+    "static/js/2.f8a4677a.chunk.js": "/five-apps_api-consume/static/js/2.f8a4677a.chunk.js",
+    "static/js/2.f8a4677a.chunk.js.map": "/five-apps_api-consume/static/js/2.f8a4677a.chunk.js.map",
+    "index.html": "/five-apps_api-consume/index.html",
+    "precache-manifest.daf007cacc7318f5fe4bf62ab8331653.js": "/five-apps_api-consume/precache-manifest.daf007cacc7318f5fe4bf62ab8331653.js",
+    "service-worker.js": "/five-apps_api-consume/service-worker.js",
+    "static/css/2.47e06e2e.chunk.css.map": "/five-apps_api-consume/static/css/2.47e06e2e.chunk.css.map",
+    "static/css/main.925056b7.chunk.css.map": "/five-apps_api-consume/static/css/main.925056b7.chunk.css.map",
+    "static/js/2.f8a4677a.chunk.js.LICENSE.txt": "/five-apps_api-consume/static/js/2.f8a4677a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4ef1f86b.js",
+    "static/css/2.47e06e2e.chunk.css",
+    "static/js/2.f8a4677a.chunk.js",
+    "static/css/main.925056b7.chunk.css",
+    "static/js/main.7e3f7153.chunk.js"
+  ]
+}
