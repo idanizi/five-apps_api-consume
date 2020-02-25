@@ -66,15 +66,22 @@ const App = () => {
 
         <Container fluid>
           <Row>
-              <Button variant="primary"
-                onClick={getOneMoreImage}>
-                {text.getMoreImages}
-              </Button>
-              <Button variant="danger"
-                style={{marginLeft: '1em'}}
-                onClick={clearAll}>
-                {text.clear}
-              </Button>
+            <Button variant="primary"
+              onClick={getOneMoreImage}>
+              {loading && <><Spinner
+                as="span"
+                animation="border"
+                size="sm"
+                role="status"
+                aria-hidden="true"
+              />{" "}</>}
+              {text.getMoreImages}
+            </Button>
+            <Button variant="danger"
+              style={{ marginLeft: '1em' }}
+              onClick={clearAll}>
+              {text.clear}
+            </Button>
           </Row>
         </Container>
 
