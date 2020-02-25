@@ -68,13 +68,15 @@ const App = () => {
           <Row>
             <Button variant="primary"
               onClick={getOneMoreImage}>
-              {loading && <><Spinner
-                as="span"
-                animation="border"
-                size="sm"
-                role="status"
-                aria-hidden="true"
-              />{" "}</>}
+              {loading && <>
+                <Spinner
+                  as="span"
+                  animation="border"
+                  size="sm"
+                  role="status"
+                  aria-hidden="true"
+                />{" "}
+              </>}
               {text.getMoreImages}
             </Button>
             <Button variant="danger"
